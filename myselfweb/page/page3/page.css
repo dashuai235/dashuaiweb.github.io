@@ -1,0 +1,10 @@
+a {
+  color: rgb(229, 29, 29); /* 继承父元素的文字颜色 */
+  text-decoration: none; /* 去除下划线 */
+  margin: 66px;
+}
+.footer {
+  display: flex;
+  margin-top: 500px;
+  justify-content: center; /* 水平居中 */
+}
