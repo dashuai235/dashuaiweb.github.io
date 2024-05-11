@@ -1,0 +1,52 @@
+.hr {
+  border: none; /* 移除默认的边框样式 */
+  background-color: rgb(255, 255, 255); /* 设置直线颜色为黑色 */
+}
+.centered-line {
+  border: none; /* 移除默认的边框样式 */
+  background-color: rgb(255, 255, 255); /* 设置直线颜色为黑色 */
+  height: 2px; /* 设置直线的高度 */
+  width: 80%; /* 设置直线的长度 */
+  margin: 0 auto; /* 将直线居中 */
+}
+.rounded-image {
+  border-radius: 50%; /* 将边框半径设置为图片宽度和高度的一半 */
+  overflow: hidden;
+  width: 120px;
+  height: auto; /* 隐藏超出边界的部分，以实现圆形效果 */
+}
+.xiaotubiao {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px; /* 图片右边距 */
+}
+.shuipingjuzhong {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 垂直居中 */
+}
+.shuxian {
+  height: 21px; /* 竖线的高度 */
+  border-left: 3px solid rgb(255, 255, 255); /* 竖线的样式 */
+  /* 调整竖线与其他元素的间距 */
+  margin: 0 8px;
+}
+
+.shuiping {
+  display: flex;
+  flex-direction: column; /* 竖着排列 */
+  align-items: center; /* 水平居中 */
+  /* 垂直居中 */
+  height: 100vh; /* 设置容器高度为视口高度，以确保元素在视口中居中 */
+}
+
+p {
+  font-size: 17px; /* 设置字号 */
+  /* 设置加粗样式 */
+  color: aliceblue;
+}
+a {
+  color: rgb(43, 221, 234); /* 继承父元素的文字颜色 */
+  text-decoration: none; /* 去除下划线 */
+  margin: 66px;
+}
